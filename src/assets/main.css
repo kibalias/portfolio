@@ -7,15 +7,23 @@
   box-sizing: border-box;
 }
 
+.main-container {
+  background-color: var(--background-color);
+}
+
 .index-left, .index-right {
   width: 100%;
+}
+
+.moon-icon {
+  z-index: 10;
 }
 .sun-icon {
   color: #edd100;
   z-index: 10;
 }
 
-.sun-icon:hover {
+.sun-icon:hover, .moon-icon:hover {
   cursor: pointer ;
   filter:drop-shadow(3px 2px 1px rgba(149, 157, 165, 0.5))
 }
@@ -32,7 +40,7 @@
   }
 
   .index-left {
-    background-image: url("src/assets/img/pattern-1.png");
+    background-image: var(--background-image-left-side);
     background-attachment: fixed;
   }
 
@@ -40,7 +48,7 @@
     padding: 1rem 6rem 1rem .6rem;
   }
 
-  .sun-icon {
+  .sun-icon, .moon-icon {
     position: fixed;
     top: 2rem;
     left: 6rem;

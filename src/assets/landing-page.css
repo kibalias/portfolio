@@ -1,0 +1,46 @@
+.greeting, .sub-text{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none
+}
+
+.name {
+    color: var(--emphasis-text-color);
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 5.5rem;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none
+}
+
+.job-title {
+    font-size: calc(1.275rem + .3vw);
+    font-weight: 600;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none
+}
+
+.sub-text {
+    width: 70%;
+    font-size: .8rem;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+@media (width >= 1024px) {
+    .left-side{
+        height: 100vh;
+    }
+}

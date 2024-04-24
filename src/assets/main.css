@@ -1,0 +1,50 @@
+@import './base.css';
+@import './landing-page.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.index-left, .index-right {
+  width: 100%;
+}
+.sun-icon {
+  color: #edd100;
+  z-index: 10;
+}
+
+.sun-icon:hover {
+  cursor: pointer ;
+  filter:drop-shadow(3px 2px 1px rgba(149, 157, 165, 0.5))
+}
+
+@media (width >= 1024px) {
+  .index-left, .index-right {
+    width: 50%;
+  }
+
+  .index-left > div {
+    padding: 0 6rem;
+    top: 0 !important;
+    position: sticky;
+  }
+
+  .index-left {
+    background-image: url("src/assets/img/pattern-1.png");
+    background-attachment: fixed;
+  }
+
+  .index-right {
+    padding: 1rem 6rem 1rem .6rem;
+  }
+
+  .sun-icon {
+    position: fixed;
+    top: 2rem;
+    left: 6rem;
+  }
+
+}
+

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 :root {
   --emphasis-text-color: #00edd1;
+  --bg-gray: #fafafa;
+  --sub-info-text-color: #8c8c8c;
 }
 
 /* semantic color variables for this project */
@@ -20,6 +22,7 @@
   --background-image-left-side: url("src/assets/img/pattern-2-dark.png");
   --background-color: #333333;
   --text-color: white;
+  --sub-info-text-color: #dbdbdb;
 }
 
 *,

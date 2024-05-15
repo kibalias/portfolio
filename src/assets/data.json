@@ -1,0 +1,26 @@
+{
+  "experience": [
+    {
+      "job_title": "FRONT-END DEVELOPER",
+      "company": "Elite Software and Data Security Inc.",
+      "year": "January 2024 - Present"
+    },
+    {
+      "job_title": "FRONT-END DEVELOPER INTERN",
+      "company": "AghimJuanPH Incorporated",
+      "year": "September 2022 - October 2022"
+    }
+  ],
+  "education": [
+    {
+      "school": "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES",
+      "course": "Bachelor of Science in Computer Science",
+      "place": "Sta. Mesa, Manila, Philippines"
+    },
+    {
+      "school": "UNIVERSITY OF PANGASINAN",
+      "course": "Information and Communications Strand, Major in Computer Programming",
+      "place": "Dagupan City, Pangasinan, Philippines"
+    }
+  ]
+}

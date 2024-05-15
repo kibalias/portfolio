@@ -1,5 +1,6 @@
 @import './base.css';
 @import './landing-page.css';
+@import './content.css';
 
 * {
   padding: 0;
@@ -45,7 +46,7 @@
   }
 
   .index-right {
-    padding: 1rem 6rem 1rem .6rem;
+    padding: 1rem 1rem 1rem .6rem;
   }
 
   .sun-icon, .moon-icon {

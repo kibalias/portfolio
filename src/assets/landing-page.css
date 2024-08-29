@@ -35,13 +35,30 @@
 
 .socials {
     display: flex;
-    gap: 8px;
+    gap: 12px;
     align-items: center;
     margin-top: 15px;
+    z-index: 2;
+}
+
+.socials iconify-icon {
+    padding: 0;
+    transition: padding .2s;
+}
+
+.socials iconify-icon:hover {
+    background-color: var(--icon-hover-color);
+    padding: .2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #06b6d4;
+    transition: padding .2s;
 }
 
 @media (width >= 1024px) {
     .left-side{
         height: 100vh;
+        padding: 0;
+        margin: 0;
     }
 }

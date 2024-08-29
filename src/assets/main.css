@@ -10,6 +10,8 @@
 
 .main-container {
   background-color: var(--background-color);
+  position: relative;
+  overflow: hidden;
 }
 
 .index-left, .index-right {
@@ -27,6 +29,17 @@
 .sun-icon:hover, .moon-icon:hover {
   cursor: pointer ;
   filter:drop-shadow(3px 2px 1px rgba(149, 157, 165, 0.5))
+}
+
+.spotlight {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: var(--emphasis-text-color);
+  top: 0;
+  transform: translateX(-50%) translateY(-50%);
+  filter:blur(110px);
+  z-index: 1;
 }
 
 @media (width >= 1024px) {
@@ -53,6 +66,10 @@
     position: fixed;
     top: 2rem;
     left: 6rem;
+  }
+
+  .spotlight {
+    z-index: 1;
   }
 
 }

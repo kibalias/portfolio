@@ -38,7 +38,7 @@
   background-color: var(--emphasis-text-color);
   top: 0;
   transform: translateX(-50%) translateY(-50%);
-  filter:blur(110px);
+  filter:blur(150px);
   z-index: 1;
 }
 
@@ -69,7 +69,7 @@
   }
 
   .spotlight {
-    z-index: 1;
+    z-index: -1;
   }
 
 }

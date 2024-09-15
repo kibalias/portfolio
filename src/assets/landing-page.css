@@ -41,7 +41,12 @@
     z-index: 2;
 }
 
-.socials iconify-icon {
+.socials a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.socials iconify-icon, .socials a {
     padding: 0;
     transition: padding .2s;
 }
